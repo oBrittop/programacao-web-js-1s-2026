@@ -27,3 +27,20 @@ let e = verdadeiro && falso
 let ou = verdadeiro || falso
 console.log(e)
 console.log(ou)
+let maior_que = b > a
+console.log(`${b} > ${a} = ${maior_que}`)
+
+//Arrays
+let numeros = [1, 3.14, 99, -7, 505.67]
+console.log(`Numero[2] : ${numeros[2]}`)
+
+//Object
+
+// Atributos podem ser de todos os tipos
+let pessoa = {
+    nome: 'João',
+    cpf: 123,
+    telefones: [61994038269, 61984268332]
+};
+
+console.log(pessoa.telefones[1])
