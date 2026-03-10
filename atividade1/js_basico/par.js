@@ -1,16 +1,16 @@
 
-function verificarPariedade(){
-numero = 9
+function verificarPariedade(numero){
 if(numero < 0){console.log("Digite um numero valido")}
-else if(numero % 2 == 0 ){v = true}
-else{v = false}
-return numero, v
+else if(numero % 2 == 0 ){ return true}
+else{return false}
 }
 
-function apresentarMensagemPariedade(numero, v){
+function apresentarMensagemPariedade(v){
     if(v == true){
         console.log(`${numero} e par`)
     }
     else{console.log(`${numero} e impar`)}
 }
-apresentarMensagemPariedade(numero, v)
+let numero = 9
+let v = verificarPariedade(numero)
+apresentarMensagemPariedade(v)
